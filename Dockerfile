@@ -1,4 +1,4 @@
-FROM node:16.18.0
+FROM node:16.18.0-alpine
 
 RUN apk add --no-cache git python3 build-base
 RUN npm i -g --force yarn
